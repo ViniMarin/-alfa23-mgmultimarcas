@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&display=swap');
+
+body{
+    background-color: #ffffff;
+    font-family: 'Noto Sans Lepcha', sans-serif;
+    
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header{
+    padding: 50px;
+}
+#header div{
+    display: inline-block;
+
+}
+#header .contato{
+    float:right;
+}
+nav.menu{
+    background-color: #f7e600;
+    text-align: center;
+}
+nav.menu ul li{
+    display: inline-block;
+    padding: 18px 90px;
+    font-size: 17px;
+}
+nav.menu ul li a{
+    color:#000000
+}
+a{
+    text-decoration: none;
+}
+.banner img{
+    width: 100%;
+}
+.marcas ul li{
+    display: inline-block;
+    font-size: 35px;
+    width: 16%;
+    padding: 50px;
+}
+.item {
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    }
+.item img{
+    width: 100%;
+}
+.item .title{
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.financiamento{
+    background: #f7e600;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+    line-height: 40px;
+    font-size: 23px;
+}
+.botao a {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+.botao
+{margin: 30px;
+
+}
+.produtos, .depoimentos{
+    text-align: center;
+}
+ .titulo {
+    font-size: 45px;
+    font-weight:bold;
+    padding-top: 25px;
+}
+.subtitulo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;}
+.sublinhado{
+    width: 150px;
+    background: #f7e600;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+footer{
+    background-color: #000000;
+}
+footer .item{
+    color: #ffffff; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 17px;
+
+}
+.depoimentos .item{
+    border: 1px solid #474747;
+    width: calc(30% - 2px);
+    padding: 15px;
+    padding-bottom: 5px;
+}
+.depoimentos img{
+    width: 100px;
+    border-radius: 50px;
+}
+.depoimentos .cliente{
+    margin-bottom: -80px;
+}
+.depoimentos .cliente .nome{
+    font-weight: bold;
+}
